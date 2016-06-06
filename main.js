@@ -33,7 +33,7 @@ app.on('activate', function () {
 
 ipc.on('open-file-dialog', function (event) {
     dialog.showOpenDialog({
-        properties: ['openFile', 'openDirectory']
+        properties: ['openDirectory']
     }, function (files) {
         if (files) event.sender.send('selected-directory', files)
     })
