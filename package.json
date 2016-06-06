@@ -4,8 +4,11 @@
   "description": "Just a simple audioplayer",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron main.js"
   },
   "author": "Lyuben Petrov",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
 }
