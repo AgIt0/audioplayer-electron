@@ -1,0 +1,11 @@
+{
+  "name": "audioplayer-electron",
+  "version": "0.0.1",
+  "description": "Just a simple audioplayer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lyuben Petrov",
+  "license": "MIT"
+}
