@@ -6,8 +6,16 @@
   "scripts": {
     "start": "electron main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agit0/audioplayer-electron.git"
+  },
   "author": "Lyuben Petrov",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agit0/audioplayer-electron/issues"
+  },
+  "homepage": "https://github.com/agit0/audioplayer-electron#readme",
   "devDependencies": {
     "electron-prebuilt": "^1.2.0"
   }
