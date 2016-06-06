@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Just a simple audioplayer",
   "main": "main.js",
+  "dependencies": {
+    "wcjs-player": "^6.0.0",
+    "wcjs-prebuilt": "^3.0.0"
+  },
   "scripts": {
     "start": "electron main.js"
   },

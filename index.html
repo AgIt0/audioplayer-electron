@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <style></style>
   </head>
   <body>
     <h1>Hello World!</h1>
+    <div id="player"></div>
     <button id="select-directory">Select Directory</button>
     <span id="selected-file" >Select a file...</span>
   </body>
 
   <script>
+    var wjs = require('wcjs-player')
+    var player = new wjs("#player").addPlayer({
+      autoplay: true,
+      wcjs: require('wcjs-prebuilt')
+    });
+    var directPath = 'file:///' + process.cwd() + '/ss.mp3'
+    player.addPlaylist(directPath);
+
+
     require('./renderer.js')
   </script>
 </html>
